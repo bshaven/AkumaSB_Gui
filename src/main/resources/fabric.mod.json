@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "akumasb-gui",
+	"version": "${version}",
+	"name": "AkumaSB Gui",
+	"description": "This mod adds QOL Features for AkumaMC SkyBlock!",
+	"authors": [
+		"bshaven"
+	],
+	"contact": {
+		"homepage": "https://www.google.com/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/akumasb-gui/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.bshaven.akumasbgui.AkumaSBGui"
+		],
+		"fabric-datagen": [
+			"com.bshaven.akumasbgui.AkumaSBGuiDataGenerator"
+		],
+		"client": [
+			"com.bshaven.akumasbgui.AkumaSBGuiClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"mixins": [
+		"akumasb-gui.mixins.json"
+	],
+	"suggests": {
+		"another-mod": "*"
+	}
+}
