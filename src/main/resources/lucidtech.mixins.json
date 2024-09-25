@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "com.bshaven.akumasbgui.mixin",
+	"package": "com.bshaven.lucidtech.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"ExampleMixin"

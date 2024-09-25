@@ -1,28 +1,28 @@
 {
 	"schemaVersion": 1,
-	"id": "akumasb-gui",
+	"id": "lucidtech",
 	"version": "${version}",
-	"name": "AkumaSB Gui",
-	"description": "This mod adds QOL Features for AkumaMC SkyBlock!",
+	"name": "LucidTech",
+	"description": "This mod adds QOL to everyday Minecraft!",
 	"authors": [
 		"bshaven"
 	],
 	"contact": {
-		"homepage": "https://www.google.com/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/bshaven/",
+		"sources": "https://github.com/bshaven/LucidTech"
 	},
 	"license": "MIT",
-	"icon": "assets/akumasb-gui/icon.png",
+	"icon": "assets/lucidtech/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.bshaven.akumasbgui.AkumaSBGui"
+			"com.bshaven.lucidtech.LucidTech"
 		],
 		"fabric-datagen": [
-			"com.bshaven.akumasbgui.AkumaSBGuiDataGenerator"
+			"com.bshaven.lucidtech.LucidTechDataGenerator"
 		],
 		"client": [
-			"com.bshaven.akumasbgui.AkumaSBGuiClient"
+			"com.bshaven.lucidtech.LucidTechClient"
 		]
 	},
 	"depends": {
@@ -32,7 +32,7 @@
 		"fabric-api": "*"
 	},
 	"mixins": [
-		"akumasb-gui.mixins.json"
+		"lucidtech.mixins.json"
 	],
 	"suggests": {
 		"another-mod": "*"

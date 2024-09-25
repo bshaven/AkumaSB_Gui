@@ -1,8 +1,8 @@
-package com.bshaven.akumasbgui;
+package com.bshaven.lucidtech;
 
 import net.fabricmc.api.ClientModInitializer;
 
-public class AkumaSBGuiClient implements ClientModInitializer {
+public class LucidTechClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
 
