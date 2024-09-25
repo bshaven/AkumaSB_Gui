@@ -1,1 +1,1 @@
-Welcome to the AkumaSB Gui
+LucidTech
