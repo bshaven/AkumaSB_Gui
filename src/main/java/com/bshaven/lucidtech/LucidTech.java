@@ -1,5 +1,6 @@
 package com.bshaven.lucidtech;
 
+import com.bshaven.lucidtech.block.ModBlocks;
 import com.bshaven.lucidtech.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -13,5 +14,6 @@ public class LucidTech implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems(); // Registers ModItems Class
+		ModBlocks.registerModBlocks(); // Registers ModBlocks Class
 	}
 }

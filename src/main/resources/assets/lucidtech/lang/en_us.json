@@ -1,5 +1,7 @@
 {
+  "item.lucidtech.pink_garnet": "Pink Garnet",
+  "item.lucidtech.raw_pink_garnet": "Raw Pink Garnet",
 
-  "item.lucidtech.pink_garnet": "Pink Garnet"
-
+  "block.lucidtech.pink_garnet_block": "Block of Pink Garnet",
+  "block.lucidtech.raw_pink_garnet_block": "Raw Block of Pink Garnet"
 }
